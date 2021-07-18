@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ExpandableListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -21,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        TextView textView;
+
+        textView.setText("Commit 1");
         expandableListView_tips = (ExpandableListView)findViewById(R.id.expanded_list_view);
         list_group = new ArrayList<>();
         list_item = new HashMap<>();
