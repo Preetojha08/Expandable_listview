@@ -1,0 +1,320 @@
+<resources>
+
+    <string name="app_name">My Tips Android E learner</string>
+
+    <string name="Group_0">General Tips</string>
+    <string name="Group_1">Tips for Andoid Studio</string>
+    <string name="Group_2">Tips for Layouts or Containers</string>
+    <string name="Group_3">Tips for Edittext and Textview</string>
+    <string name="Group_4">Tips for Toast</string>
+    <string name="Group_5">Tips for Button</string>
+    <string name="Group_6">Tips for Checkbox</string>
+    <string name="Group_7">Tips for Radio Button</string>
+    <string name="Group_8">Tips for Toggle Button and Switch</string>
+    <string name="Group_9">Tips for Spinner</string>
+    <string name="Group_10">Tips for Imageview and Image Button</string>
+    <string name="Group_11">Tips for Intent</string>
+    <string name="Group_12">Tips for Scrollview</string>
+
+    <string name="Group_13">Tips for Progress Bar</string>
+    <string name="Group_14">Tips for Card View</string>
+    <string name="Group_15">Tips for Grid View</string>
+
+    <string name="Group_16">Tips for Seek Bar</string>
+
+    <string name="Group_17">Tips for Motion Sensors</string>
+    <string name="Group_18">Tips for Ads View</string>
+
+    <string name="Group_19">Tips for Search View</string>
+    <string name="Group_20">Tips for Building User Interface</string>
+    <string name="Group_21">Tips for Firebase</string>
+    <string name="Group_22">Tips for SQLite</string>
+
+    <string name="Group_23">Tips for Logcat</string>
+    <string name="Group_24">Tips for Use of Icons</string>
+
+    <string-array name="Android_studio">
+        <item>Executing Small Blocks of Code\n
+        \nExecute the small block of code instead of running the whole app in Android Studio.\n
+        \nAndroid Studio provides a good solution by just adding a top-level main function. The IDE will let you execute that function locally as if it were a unit test.</item>
+
+        <item>Code Refactoring\n
+        \nThere is a possibility that there is too much work and leads to unintended bugs in the codebase. If your only option was to refactoring the code so use a simple text editor, you’d be right.\n
+        \nAndroid Studio provides this features which simplify the refactoring overhead in a few keystrokes, letting you refactor with confidence.</item>
+
+        <item>Renaming in Code\n
+        \nAs your codebase, you might find that you need to rename your functions , variables and constructs. If you doing it manually renaming it’s take too much work and it’s prone to human error. And another thing is switching to your mouse takes too much time.\n
+        \nAndroid Studio provides this features which simplify the renaming overhead in a few keystrokes, letting you renaming only in one move.</item>
+
+        <item>Use split screen for increasing efficiency.\n
+        \nAndroid Studio providing this feature if you want to copy the piece of code from one project to another project. And if your beginner than it is very useful for you because you can see the video and parallelly write the code.</item>
+
+        <item>Use Short Key words\n
+            \nAs the Android Studio is updating day by day so there are many useful features are available for developer and users.
+            \nThere are so many things in the studio which is useful and done in few moves for example\n
+            \nChoose from the last Copy or Pastes\nSearch for command\nOpen a class\n
+            Import a class\nOpen any file\nOpen symbol\nGo to implementation\nGo to declaration\n
+        </item>
+
+        <item>Android Studio Distraction Free\n
+            \nDistraction Free mode hides all of the existing toolbars so that you’re just left with the editor screen. You’ll still be able to navigate it in the same way, however.
+        </item>
+
+        <item>Android Gradle tasks\n
+            \nWhen we run a selected configuration to build and install our application, the build can unfortunately sometimes fail often giving us zero information about said fail on a build that was working perfectly fine just a minute ago.
+        </item>
+
+        <item>Apply only needed plugins\n
+        \nAndroid Studio plugins extend or add functionality to the Android Studio IDE. Plugins can be written in Kotlin or Java, or a mix of both, and are created using IntelliJ IDEA and the IntelliJ Platform.\n
+        \nThere is an endless list of plugins in Android Studio.\n
+        \nUse appropriate plugins can help make your work more efficient, smarter, and faster.</item>
+
+        <item>Android Studio Magic of Quick Fix\n
+        \nAndroid Studio has a super cool feature called Quick Fix or Intention Actions.\n
+        \nThis feature offers you possible solutions to issues with your code based on the current cursor placement and context.\n
+        \nQuick Fix can fix many common issues such as removing unused imports, unused methods or unused variables; switching out var with val; switching out multiple if–else instances with switch/when statements; and more.</item>
+    </string-array>
+
+
+
+    <string-array name="layouts">
+        <item>When designing and developing apps for Android screens start with Relative Layout. Because the key is positioning things in relative terms and not using absolute references.</item>
+        <item>Use Linear Layout when you want to use Scroll View , Card View and many more. Linear layout is know for its orientation purpose. No , other layouts provide this things in it.</item>
+        <item>Constraint Layout is also a useful layout if want to lock the position of some button or something else than you can use and it will never change its position.</item>
+        <item>Grid Layout is for special purpose when you have to show your layout in a Rectangular grid means in the line or equal distance.</item>
+        <item>Table layout is showing used when the Table type view is required to show on the screen its puts the UI in proper manner.</item>
+
+    </string-array>
+
+
+
+    <string-array name="Edittext_textview">
+        <item>Edittext has various variety to take input from the users in different aspects. For Example\n
+        \nNumber\nPassword\nDate\nTime\n</item>
+        <item>In Edittext developer can put the limits in the XMl side.</item>
+        <item>Developer can also use Edit text as a Text view by using editable = false.</item>
+        <item>Give text size always in SP(Scale Independent Pixel) instead of DP(Density-independent Pixels).</item>
+        <item>By putting autoText = true for correction of spelling error in edittext.</item>
+    </string-array>
+
+
+
+    <string-array name="Toast">
+        <item>Toast are non clickable.</item>
+        <item>The maximum duration of the Toast is 10 second.</item>
+        <item>The duration of the Toast.LENGTH_LONG is 3.5 sec and Toast.LENGTH_SHORT is 2 second.</item>
+        <item>You can create your own custom Toast.</item>
+        <item>The name toast is because it "POP UP" like the hot bread from the toaster.</item>
+    </string-array>
+
+
+
+
+    <string-array name="button">
+        <item>A normal button is know as Push button which can be pressed.</item>
+        <item>Developer can also change the text property of button just like text size , text colour and etc</item>
+        <item>Button is a subclass of the Textview.</item>
+        <item>The button has same properties as a text view , with a few button specific properties.</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="Check_box">
+
+        <item>Checkbox is managed separately and you must register a click listener for each check box.</item>
+        <item>If you change the size of text in the check box than you have to change the size of the box used in checkbox.</item>
+        <item>The check box has only two states checked and unchecked.</item>
+
+    </string-array>
+
+    <string-array name="Radio_button">
+
+        <item>Radio Button also has only two states checked and unchecked.</item>
+        <item>If you want to use more than one radio button than use Radio Group.</item>
+        <item>If you change the size of text in the check box than you have to change the size of the circle used in radio button.</item>
+
+    </string-array>
+
+    <string-array name="Toggle_Button_switch">
+
+        <item>Toggle button allows the user to change a setting between two states.</item>
+        <item>Android 4.0 (API Level 14) introduces another kind of toggle button called a switch.</item>
+        <item>Toggle button look like button but work like a switch.</item>
+        <item>Toggle button is introduce first from the switch.</item>
+        <item>Switch are only available since API Level 14 Android 4.0 .</item>
+        <item>Switch work as a slide toggle button.</item>
+        <item>Switch and Toggle button are same with little bit of difference.</item>
+
+    </string-array>
+
+    <string-array name="Spinner">
+
+        <item>The Spinner has two option to display the spinner on the layout Dialog and Drop Down.</item>
+        <item>In the dialog the spinner shows the options as a dialog box.</item>
+        <item>In the drop down the spinner shows the option as a drop down list.</item>
+        <item>The spinner wil always shows you the first value of the array list.</item>
+
+    </string-array>
+
+    <string-array name="image_view_image_button">
+
+        <item>If you are plan to add different sizes of images, put them in following folders accordingly. Android OS will automatically take the most suitable image out of them.</item>
+        <item>Always remember the size of the image view you require for the screen of device.</item>
+        <item>If you using the image button than make sure that the size of the image is as per the use od that button.</item>
+        <item>Because in image button the size of image matter alot , if your image size is 128dp than you can not give 64dp or if you giving than the image will show only half portion of that image on image button.</item>
+
+    </string-array>
+
+    <string-array name="intent">
+
+        <item>Inetnt can also pass the data with in the activities and fragment.</item>
+        <item>Intent also perform some special action and task on that device.</item>
+        <item>Intent can also load the url.</item>
+
+    </string-array>
+
+
+    <string-array name="scroll_view">
+
+        <item>Scroll view can also use other layouts.</item>
+        <item>If you want to use scroll view in the scroll view than use nested scroll view in the scroll view.</item>
+
+    </string-array>
+
+    <string-array name="progress_bar">
+
+        <item>Progress bar has two modes to represent progress determinate and indeterminate.</item>
+        <item>Progress bar can show in different option like circular and horizontal.</item>
+
+    </string-array>
+
+    <string-array name="Grid_view">
+
+        <item>All the grid item are automatically inserted into the layout using an adapter.</item>
+        <item>We will be using base adapter to display the content in the grid view.</item>
+
+    </string-array>
+
+    <string-array name="card_view">
+
+        <item>Card view elevation property simply elevation the card view on the Z axis to a high equal to the passed value.</item>
+        <item>Card view is shown as 3D rectangular shape.</item>
+
+    </string-array>
+
+    <string-array name="search_view">
+
+        <item>If you want, you can handle all user input into the search widget yourself, using various callback methods and listeners. This document, however, focuses on how to integrate the search widget with the system for an assisted search implementation. If you want to handle all user input yourself, read the reference documentation for SearchView and its nested interfaces..</item>
+        <item>The system uses this file to instantiate a SearchableInfo object, but you cannot create this object yourself at runtime—you must declare the searchable configuration in XML..</item>
+    </string-array>
+
+    <string-array name="seek_bar">
+
+        <item>You can change the seek bar icon which is used in the bar.</item>
+        <item>Make the icon size of 24x24 dp for normal size .</item>
+
+    </string-array>
+
+    <string-array name="log_cat">
+
+        <item>Use logcat to check the code is working properly in the connected device.</item>
+        <item>You can change the colour of the logcat in android studio for different operations.</item>
+
+    </string-array>
+
+    <string-array name="general_tips">
+
+        <item>Try to get more familiar with the Android framework of your application.</item>
+        <item>Start playing with codes. Change the code and see the changes.</item>
+        <item>Keep Update yourself and Android Studio too.</item>
+        <item>Start reading more code of android.</item>
+        <item>Try to make your own icons.</item>
+        <item>Try to learn Kotlin and Java both for Android Studio.</item>
+        <item>Try to move out of your comfort zone and interact with more other developers. Attend seminars and meet-ups.</item>
+        <item>If your beginner so never use beta version of android studio. Always use stable version.</item>
+        <item>Try to keep practice each and every week.</item>
+        <item>Try to run your project in real device.</item>
+
+    </string-array>
+
+    <string-array name="icon">
+
+        <item>Try to use your own icons in your application.</item>
+        <item>Check the licence before downloading and using the icons in your projects.</item>
+        <item>If the icon is not free than give them attribution in your application to use it.</item>
+
+    </string-array>
+
+
+    <string-array name="motion">
+
+        <item>You currently cannot disable hardware acceleration at the android application level.</item>
+        <item>View layers have other functions besides disabling hardware acceleration.</item>
+        <item>Android views automatically call invalidate() when their properties change, such as the background color or the text in a TextView.</item>
+
+
+    </string-array>
+
+    <string-array name="fire_base">
+        <item>If you are using firebase for an project than try to join the firebase from the Android studio.</item>
+        <item>If you access the firebase form android studio the assistant will assist you.</item>
+        <item>While using firebase get full knowledge of the sub parts of it.</item>
+
+    </string-array>
+
+    <string-array name="sqlite">
+
+
+
+
+    </string-array>
+
+
+    <string-array name="adview">
+
+        <item>If you using an Adview in android than make sure never use to much ads in the your single activity or screen.</item>
+        <item>You can add thousand adview in one Android application from the Admob.</item>
+        <item>There many differnt platform for showing ads in our application.</item>
+        <item>In admob there are some options for showing ads in your application , most of application has banner aps in it use banner ads in your application and place with proper height and width.</item>
+        <item>If you are using banner ads or other ads in application than make sure your layout should be responsive.</item>
+        <item>For every ad unit you have to create a new unit id in admob for showing in the application.</item>
+
+    </string-array>
+
+
+    <string-array name="user_interface_tips">
+
+        <item>Make your UI so attractive and simple , don t mess it by putting a lot things in it.</item>
+        <item>Your layout should be interactive where user can easy interact with them.</item>
+        <item>You have to know about your requirements before the build the UI.</item>
+        <item>Make the UI of the application responsive.</item>
+        <item>Make your UI for both Portrait and Landscape , or make it for only one but describe in the Manifest file.</item>
+
+    </string-array>
+
+
+    <string name="question_1">Android is developed by whom.</string>
+    <string name="question_2">Which programming Language is used for Android application.</string>
+    <string name="question_3">What is Manifest.xml file in android.</string>
+    <string name="question_4">How many levels of security are in android.</string>
+
+    <string name="question_5">Where we put all the text of that application.</string>
+    <string name="question_6">What version of android should you use as your minimum development target.</string>
+    <string name="question_7">What was the google \'s main business motivation for supporting android.</string>
+    <string name="question_8">Who is the parent class of the activity.</string>
+    <string name="question_9">Action bar can be associated to whom.</string>
+    <string name="question_10">Which of the following in not to belong to the transitions.</string>
+    <string name="question_11">Why we use view pager.</string>
+    <string name="question_12">The applications which is developed in android studio must be signed.</string>
+    <string name="question_13">Which of the company bought android.</string>
+    <string name="question_14">What part of the Android Studio platform is open source for all others.</string>
+    <string name="question_15">The android studio is licensed under which open source licensing license.</string>
+    <string name="question_16">Which of the important device characteristics that you should consider as you design and develop your application in android studio.</string>
+    <string name="question_17">Which of the following is NOT the a valid usage of the Intents in android studio.</string>
+    <string name="question_18">Which piece of code used in android studio is not as an open source.</string>
+    <string name="question_19">A type of service provided by android that controls application lifespan and activity pile is what.</string>
+    <string name="question_20">When did The Google purchased android.</string>
+
+
+
+
+</resources>
