@@ -23,9 +23,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        TextView textView;
-
-        textView.setText("Commit 1");
         expandableListView_tips = (ExpandableListView)findViewById(R.id.expanded_list_view);
         list_group = new ArrayList<>();
         list_item = new HashMap<>();
